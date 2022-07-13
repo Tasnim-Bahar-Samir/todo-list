@@ -7,6 +7,7 @@
 }
 
 body{
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
     background-color: rgb(187, 252, 9);
 }
@@ -39,7 +40,6 @@ body{
 
 }
 .list li{
-    font-size: 20px;
     padding: 20px 5px;
     border-radius: 10px;
     border-bottom: .5px solid rgba(0, 0, 0, 0.1);
@@ -67,4 +67,28 @@ body{
 }
 .list li.checked .check{
     color: lightslategrey;
+}
+@media (max-width:600px) {
+    body{
+        font-size: 18px;
+    }
+    .task-container{
+        width: 380px;
+    }
+}
+@media (max-width:400px) {
+    body{
+        font-size: 16px;
+    }
+    .task-container{
+        width: 320px;
+    }
+}
+@media (max-width:320) {
+    body{
+        font-size: 14px;
+    }
+    .task-container{
+        width: 290px;
+    }
 }
