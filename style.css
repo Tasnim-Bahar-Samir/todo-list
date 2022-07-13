@@ -61,3 +61,10 @@ body{
     top: 50%;
     transform: translateY(-50%);
 }
+.list li.checked{
+    color: lightslategray;
+    text-decoration: line-through;
+}
+.list li.checked .check{
+    color: lightslategrey;
+}
